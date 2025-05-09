@@ -37,5 +37,23 @@ The BLoC merges local queued tasks and remote Firebase tasks into a single list,
 
 https://github.com/user-attachments/assets/699b6222-a8a4-4ccc-81a4-5e8eef12c6bd
 
+# How to Run
+
+# Clone the repository
+
+git clone https://github.com/nidhin29/TodoApp1.git
+
+# Install dependencies
+
+flutter pub get
+
+# 📱 Download APK
+
+You can try the app directly by downloading the APK:
+
+
+
+
+
 
 
