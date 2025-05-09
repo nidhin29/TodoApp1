@@ -35,5 +35,7 @@ The BLoC merges local queued tasks and remote Firebase tasks into a single list,
 
 # Task Video
 
-[Watch Task Video](assets/task_video.mp4)
+https://github.com/user-attachments/assets/699b6222-a8a4-4ccc-81a4-5e8eef12c6bd
+
+
 
