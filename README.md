@@ -32,3 +32,8 @@ If an upload fails (e.g., due to connectivity issues), the task is re-queued and
 A StreamController notifies listeners of any queue updates.
 
 The BLoC merges local queued tasks and remote Firebase tasks into a single list, ensuring the UI is always up to date.
+
+# Task Video
+
+[Watch Task Video](assets/task_video.mp4)
+
