@@ -51,6 +51,8 @@ flutter pub get
 
 You can try the app directly by downloading the APK:
 
+https://drive.google.com/drive/folders/1uTdAV-cj89CNWT-xPabvBfS2WHZ5uA1E?usp=drive_link
+
 
 
 
