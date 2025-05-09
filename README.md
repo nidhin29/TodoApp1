@@ -18,34 +18,7 @@ Routing between various screens are fone thorugh ## go_router package
 
 # Folder Structure
 
-lib/
-├── Application/         # Contains business logic including Blocs and event/state management
-│   ├── AddTodo/         # BLoC files for adding todos
-│   ├── Auth/            # BLoC files for authentication (sign-in)
-│   └── GetTodo/         # BLoC files for retrieving todos
-│
-├── Core/
-│   └── Injectable/      # Dependency injection configuration
-│
-├── Domain/              # Contains core business models and service definitions
-│   ├── AddTodo/         # Models and services for Todo tasks
-│   ├── Auth/            # Auth service
-│   ├── Failure/         # Failure handling for different domains
-│   └── Token Manager/   # Handles token management
-│
-├── Infrastructure/      # Implements repositories for domain services
-│   ├── AddTodo/         # Repository for adding todos
-│   └── Auth/            # Repository for authentication
-│
-├── Presentation/        # Contains UI code
-│   ├── Auth/            # Screens for login and signup
-│   └── Task/            # Screens for adding and displaying tasks
-│
-├── Home/                # Entry point or main dashboard logic
-│
-├── Splash/              # Initial loading screen and Firebase configuration
-│
-└── main.dart            # App entry point
+<pre lang="markdown"> ``` lib/ ├── Application/ # Business logic (Blocs, events, states) │ ├── AddTodo/ # BLoC for adding todos │ ├── Auth/ # BLoC for authentication │ └── GetTodo/ # BLoC for retrieving todos │ ├── Core/ │ └── Injectable/ # Dependency injection config │ ├── Domain/ # Business models and service definitions │ ├── AddTodo/ # Todo models & services │ ├── Auth/ # Auth service │ ├── Failure/ # Domain-specific failure handling │ └── Token Manager/ # Token management logic │ ├── Infrastructure/ # Repository implementations │ ├── AddTodo/ # Add todo repository │ └── Auth/ # Auth repository │ ├── Presentation/ # UI code │ ├── Auth/ # Login screen │ ├── Task/ # Task creation and display screens │ ├── Home/ # Main dashboard │ └── Splash/ # Initial loading + Firebase init │ └── main.dart # App entry point ``` </pre>
 
 
 # Queue Implementation Logic
